@@ -28,7 +28,10 @@
 */
 
 // Code Here 
-
+function first( array, callback){
+  return callback (array)
+}
+first(callback)
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
@@ -48,7 +51,9 @@ first(names, function(firstName){
 */
 
 //Code Here
+function last(array, callback){
 
+}
 // Do not edit the code below.
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
@@ -135,7 +140,11 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
-
+function each(array,cb){
+  for(let i = 0; i < array.length; i++){
+    cb(array[i], i)
+  }
+}
 // Do not edit the code below.
 each(names, function(item, indice){
   console.log('The item in the ' + indice + ' position is ' + item)
@@ -152,7 +161,13 @@ each(names, function(item, indice){
 */
 
 // Code here
-
+function getUserById( array, input, cb){
+  for(let i = 0; i < array.length; i++){
+    if(array[1].id === input){
+        cb(array[i])
+    }
+  }
+}
 // Do not edit the code below.
 var users = [
   {

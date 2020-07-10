@@ -15,14 +15,24 @@
 */
 
 //Code here
-
+let me = {
+  name: "Ryan",
+  age: 23,
+}
 ////////// PROBLEM 2 //////////
 
 /*
   Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
-
+let favoriteThings = {
+  band: 'Linkin Park',
+  food: 'pizza',
+  person: 'My Wife',
+  book: "Can't hurt me",
+  movie: 'Star Wars: Revenge of the Sith',
+  holiday: "Thanksgiving"
+}
 //Code here
 
 /*
@@ -31,12 +41,14 @@
 */
 
 //Code here
-
+favoriteThings.car = 'Jeep'
+favoriteThings.brand = 'Nike'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 //Code here
 
 ////////// PROBLEM 3 //////////
@@ -50,6 +62,13 @@
 */
 
 //Code here
+let backPack = {
+
+}
+
+let item = 'firstPocket'
+backPack["item"] = 'firstPocket'
+backPack(firstPocket["chapstick"])
 
 /*
   After you do the above, alert your entire backPack object.
@@ -85,7 +104,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
